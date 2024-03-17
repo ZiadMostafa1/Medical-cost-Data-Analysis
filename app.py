@@ -6,6 +6,8 @@ import seaborn as sns
 import plotly.express as px
 import plotly.graph_objects as go
 
+st.set_page_config(page_title='Medical Cost Data Analysis', page_icon=':hospital:', layout='wide', initial_sidebar_state='expanded')
+
 df = pd.read_csv('cleaned_data.csv')
 
 st.title('Medical Cost Data Analysis')
